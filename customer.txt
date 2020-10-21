@@ -1,0 +1,49 @@
+package ecommerce;
+public class Customer {
+	
+	private String Name;
+	private String gmail;
+	private int mobnum;
+	
+	public Customer(String name,String gmail,int mobnum)
+	{
+		
+		Name= name;
+		this.gmail=gmail;
+		this.mobnum=mobnum;
+	}
+
+	public String getName() {
+		return Name;
+	}
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+	public String getGmail() {
+		return gmail;
+	}
+
+	public void setGmail(String gmail) {
+		this.gmail = gmail;
+	}
+
+	public int getMobnum() {
+		return mobnum;
+	}
+
+	public void setMobnum(int mobnum) {
+		this.mobnum = mobnum;
+	}
+	
+	public String toString() {
+		return "Customer[Name="+Name +", gmail=" + gmail +", mobnum=" + mobnum + "]";
+	}
+
+	
+	
+	
+	
+}
+
